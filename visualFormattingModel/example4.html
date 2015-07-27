@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Comparison of positioning schemes</title>
+      <style>
+          body { display: block; font-size:12px; line-height: 200%; 
+       width: 400px; height: 400px }
+p    { display: block }
+span { display: inline }
+#outer { color: red }
+#inner { color: blue }
+#outer { position: relative; top: -12px; color: red }
+/*#inner { position: relative; top: 12px; color: blue }  */
+
+#inner { float: none; width: 130px; color: blue }
+
+
+#sibling { clear: both; color: red }
+          </style>
+  </head>
+  <body>
+    <p>Beginning of body contents.
+      <span id="outer"> Start of outer contents.
+            <span id="inner"> Inner contents.</span>
+            <span id="sibling"> Sibling contents.</span>
+        End of outer contents.
+      </span>
+      End of body contents.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+h3 {
+	margin-bottom: 1.2em;
+}
+
+li {
+	margin: 0 0 -.214em 0;
+}
+
+select {
+	height: 1.429em;
+}
+
+textarea {
+	height: 4.571em;
+}
+
+.medium {
+	width: 13.429em;
+}
+
+.long {
+	width: 20.286em;
+}
+
+#subjectField {
+	margin-bottom: -.214em;
+}
+
+fieldset {
+	height: 1.583em;
+	padding-top: .417em;
+}
+
+fieldset .rInput {
+	border: 0 !important;
+}
+
+select.medium {
+	width: 13.714em;
+}
+
+#availabilityField .rInput {
+	margin-top: .286em;
+}
+
+#messageField {
+	padding-bottom: .286em;
+}
+
+input.submitButton {
+	margin-top: .15em;
+}
+
+   * html input,
+* html textarea {
+
+	float: left;
+}
+
+* html select {
+	font-size: .643em;
+}
+
+* html select.medium {
+	width: 21.364em;
+}
+
+* html textarea {
+	height: 4.643em;
+}
+
+* html #subjectField {
+	margin-top: .071em;
+	margin-bottom: 0;
+}
+
+* html #availabilityField label {
+	padding-top: 0;
+}
+
+* html input.submitButton {
+	margin: .1em 0 0 7em;
+}

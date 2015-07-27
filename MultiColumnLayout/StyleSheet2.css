@@ -1,0 +1,32 @@
+﻿
+
+ 
+ 
+
+
+ body {
+   margin: 0 auto;
+   min-width: 40em;   /* step 2: set body max min width */
+   max-width: 56em;   /* step 2: set body max max width */
+ }
+ 
+ #header {
+   background-color: #369;
+   color: #fff;
+ }
+ 
+
+ #sidebar {
+   width: 13em; padding: 0 0.5em;
+   background-color: #ff6;
+ }
+ 
+ #nav {
+   width: 11em; padding: 0 0.5em;
+   background-color: #ddd;
+ }
+
+
+ #footer {
+   border-top: 1px solid #369;
+ }

@@ -1,0 +1,12 @@
+﻿p {
+  width: 20em;
+}
+ 
+span {
+  background-color: lime;
+}
+
+span {
+   position: relative;top: 1em;left: 2em;
+   background-color: lime;
+ }

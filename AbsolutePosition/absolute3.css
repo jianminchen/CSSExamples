@@ -1,0 +1,19 @@
+﻿html, body {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ #outer {
+   margin: 5em;
+   border: 1px solid #f00;
+   height: 4em; /* newly added*/
+ }
+ 
+ #inner {
+   width: 6em;
+   height: 4em;
+   background-color: #999;
+   position:absolute;   /* newly added*/
+   left: 1em;     /* newly added*/  /* containing block is viewportal or browser, since it is absolution, outer is not its containing block */
+   
+ }

@@ -1,0 +1,49 @@
+﻿
+
+ 
+ 
+
+
+ body {
+   margin: 0 auto;
+   min-width: 40em;
+   max-width: 56em;
+ }
+ 
+ #header {
+   background-color: #369;
+   color: #fff;
+ }
+  
+ #wrapper {
+   margin: 0 14em 0 12em;
+   padding: 0 1em;
+ }
+ 
+ #main {
+   float: left; 
+     width: 100%;   background-color: lime; /* step 5B: add width on the main*/
+     
+ }
+
+ #sidebar {
+   width: 13em; padding: 0 0.5em;
+   background-color: #ff6;
+   float: left;   
+   margin-left: -14em;   
+   position: relative; left: 15em;    
+ }
+ 
+ #nav {
+   width: 11em; padding: 0 0.5em;
+   background-color: #ddd;
+   float: left;    
+   margin-left: -100%;                 /*step 8: newly added, solve nav position issue */
+   position: relative;  right: 13em;   /*step 8: newly added, solve the issue of the position */
+ }
+
+
+ #footer {
+   border-top: 1px solid #369;
+   clear: left; 
+ }

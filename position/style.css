@@ -1,0 +1,13 @@
+﻿body {
+}
+p {
+  width: 20em;
+}
+ 
+span {
+  background-color: red;
+}
+span {
+   position: relative;top: 1em;left: 2em;
+   background-color: green;
+ }

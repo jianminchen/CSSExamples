@@ -1,0 +1,45 @@
+﻿
+
+ 
+ 
+
+
+ body {
+   margin: 0 auto;
+   min-width: 40em;
+   max-width: 56em;
+ }
+ 
+ #header {
+   background-color: #369;
+   color: #fff;
+ }
+  
+ #wrapper {
+   margin: 0 14em 0 12em;
+   padding: 0 1em;
+ }
+ 
+ #main {
+   float: left;   
+ }
+
+ #sidebar {
+   width: 13em; padding: 0 0.5em;
+   background-color: #ff6;
+   float: left;   
+   margin-left: -14em;   
+   position: relative; left: 15em;    /* step 7: newly add, solve the overlap content issue.*/
+ }
+ 
+ #nav {
+   width: 11em; padding: 0 0.5em;
+   background-color: #ddd;
+   float: left;    
+ }
+
+
+ #footer {
+   border-top: 1px solid #369;
+   clear: left; 
+ }

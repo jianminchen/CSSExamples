@@ -1,0 +1,53 @@
+body {
+	 margin: 0;
+	 padding: 0 10%;
+     font-size:20px !important; 
+     background-color:white;
+}
+.alpha {   
+	font-size:14px; 
+}
+/*test source order*/
+html > head + body > div>p {
+    font-size: 26px;
+}
+p {
+	margin: .429em auto; /*shorthand property*/
+    font-size:12px; 
+    background-color:pink;
+}
+
+div p {
+    background-color:green; 
+}
+div >span {
+    background-color:gray;
+}
+    div p span {
+        background-color:yellow;
+    }
+#smallFont {
+    font-size:6px;
+}
+
+#smallFont2 {
+    font-size:8px;
+}
+
+q:before,
+ q:after {
+
+	content: "";
+}
+
+h1 {
+	font-size: x-large;
+}
+
+.sectionNote {
+	font-size: medium;
+}
+
+.attribution {
+	font-size: small;
+}

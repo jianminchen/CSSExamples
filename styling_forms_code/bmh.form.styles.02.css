@@ -1,0 +1,31 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 1.714em;
+	background-image: url(bg_grid.gif);
+	font-size: 14px;
+	font-family: Helvetica,Arial,sans-serif;
+	line-height: 1.714em;
+}
+
+h3 {
+	margin: 0 0 1.2em 0;
+	border-bottom: .05em solid rgb(0,96,192);
+	font-size: 1.429em;
+	line-height: 1.15em;
+}
+
+form {
+	margin: 0;
+	width: 35.929em;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}

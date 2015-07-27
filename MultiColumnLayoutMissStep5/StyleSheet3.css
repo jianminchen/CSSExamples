@@ -1,0 +1,37 @@
+﻿
+
+ 
+ 
+
+
+ body {
+   margin: 0 auto;
+   min-width: 40em;
+   max-width: 56em;
+ }
+ 
+ #header {
+   background-color: #369;
+   color: #fff;
+ }
+ 
+ #main {
+   float: left;  /*new*/
+ }
+
+ #sidebar {
+   width: 13em; padding: 0 0.5em;
+   background-color: #ff6;
+   float: left;   /*new*/
+ }
+ 
+ #nav {
+   width: 11em; padding: 0 0.5em;
+   background-color: #ddd;
+   float: left;   /*new*/
+ }
+
+
+ #footer {
+   border-top: 1px solid #369;
+ }

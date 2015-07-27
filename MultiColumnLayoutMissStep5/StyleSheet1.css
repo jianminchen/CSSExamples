@@ -1,0 +1,16 @@
+﻿#header {
+   background-color: #369;
+   color: #fff;
+ }
+ 
+ #sidebar {
+   background-color: #ff6;
+ }
+ 
+ #nav {
+   background-color: #ddd;
+ }
+ 
+ #footer {
+   border-top: 1px solid #369;
+ }

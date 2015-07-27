@@ -1,0 +1,33 @@
+﻿
+ body {
+   margin: 0 auto;
+   min-width: 40em;
+   max-width: 56em;
+ }
+ 
+ #header {
+   background-color: #369;
+   color: #fff;
+ }
+ 
+ #main {
+   float: left;  /*step 3: */
+ }
+
+ #sidebar {
+   width: 13em; padding: 0 0.5em;
+   background-color: #ff6;
+   float: left;   /*step 3: */
+ }
+ 
+ #nav {
+   width: 11em; padding: 0 0.5em;
+   background-color: #ddd;
+   float: left;   /*step 3: */
+ }
+
+
+ #footer {
+   border-top: 1px solid #369;
+   clear: left;  /*step 4: new add clear left to solve the issue*/
+ }
